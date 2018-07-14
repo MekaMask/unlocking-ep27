@@ -19,7 +19,8 @@ namespace temperature {
         /// <param name="fahrenheit"></param>
         /// <returns></returns>
         public double ConvertFahrenheitToCelsius (double fahrenheit) {
-            throw new NotImplementedException ();
+            double  celsius = Math.Round((fahrenheit - 32) * 5/9,2);
+            return celsius ;
         }
         /// <summary>
         /// เปลี่ยนค่า องศา Kelvin ให้เป็น Celsius
